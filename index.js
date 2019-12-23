@@ -16,3 +16,8 @@ server.get("/", (req, res) => {
 });
 
 server.listen(80, console.log("Server started"));
+// controllers
+
+const authorsRouter = require("./authors-route");
+
+server.use("/authors", authorsRouter);
