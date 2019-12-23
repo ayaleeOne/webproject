@@ -5,6 +5,12 @@
     align-items: center;
 }
 
+.authors {
+    flex-direction: row;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+
 .author {
     border: 2px solid black;
     padding: 5px;
